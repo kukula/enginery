@@ -14,6 +14,10 @@ Gem::Specification.new do |s|
   s.required_ruby_version = '>= 1.9.2'
 
   s.add_dependency 'e', '>= 0.4.2'
+  s.add_dependency 'specular'
+  s.add_dependency 'sonar'
+  s.add_dependency 'pry'
+  s.add_dependency 'thin'
 
   s.require_paths = ['lib']
   s.files = Dir['**/{*,.[a-z]*}'].reject {|e| e =~ /\.(gem|lock)\Z/}
